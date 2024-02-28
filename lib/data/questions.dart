@@ -3,58 +3,58 @@ import 'package:quiz_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'What is my favorite day in the year?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions'
+      '14/12',
+      '13/10',
+      '14/5',
+      '29/7'
     ],
    ),
   
   QuizQuestion(
-    'How are Flutter UIs built?',
+    'When I wake up I first check:',
     [
-      'By combining widgets in code',
-      'By combining widgets in a visual editor',
-      'By defining widgets in config files',
-      'By using XCode for iOS and Android Studio for Android',
+      'SnapChat Map',
+      'Facebook Newsfeed',
+      'Outlook',
+      'WhatsApp',
     ],
   ),
   QuizQuestion(
-    'What is the purpose of a StatefulWidget?',
+    'I call my love "Nuda" :',
     [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'So he can feel that I am a member of his family',
+      'Cause I forgot his name',
+      'Cause I hate his name',
+      'To ask him for something',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Something is always in my backbag:',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Rubic Cube',
+      'Laptop',
+      'Gym Gloves',
+      'beans with egg sandwich',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'What is the most thing/person I love?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Nuda',
+      'Mango Smoothie Juice',
+      'Ramy Gamal',
+      'My Red Bike',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'What do I want to buy for Nuda?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Powerbank',
+      'beans with egg sandwich',
+      'ferarri car',
+      'Cup of coffee',
     ],
   ),
 ];

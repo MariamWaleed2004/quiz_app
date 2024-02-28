@@ -20,7 +20,7 @@ class StartQuiz extends StatelessWidget {
           ),
           const SizedBox(height: 60),
           Text(
-            'Learn Flutter the fun way',
+            'See how much you know me!',
             style: GoogleFonts.lato(
             color: const Color.fromARGB(255, 201, 153, 251),
             fontSize: 24,
@@ -35,7 +35,7 @@ class StartQuiz extends StatelessWidget {
               foregroundColor: Colors.white
             ),
             icon: const Icon(Icons.arrow_right_alt),
-            label: const Text( 'Start Quiz'),
+            label: const Text( "Let's See! "),
           ),
         ],
       ),
