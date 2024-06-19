@@ -1,60 +1,55 @@
 import 'package:quiz_app/models/quiz_question.dart';
 
-
 const questions = [
   QuizQuestion(
-    'What is my favorite day in the year?',
+    'What are the main building blocks of Flutter UIs?',
     [
-      '14/12',
-      '13/10',
-      '14/5',
-      '29/7'
+      'Widgets',
+      'Components',
+      'Blocks',
+      'Functions',
     ],
-   ),
-  
+  ),
+  QuizQuestion('How are Flutter UIs built?', [
+    'By combining widgets in code',
+    'By combining widgets in a visual editor',
+    'By defining widgets in config files',
+    'By using XCode for iOS and Android Studio for Android',
+  ]),
   QuizQuestion(
-    'When I wake up I first check:',
+    'What is the purpose of a StatefulWidget?',
     [
-      'SnapChat Map',
-      'Facebook Newsfeed',
-      'Outlook',
-      'WhatsApp',
+      'Update UI as data changes',
+      'Update data as UI changes',
+      'Ignore data changes',
+      'Render UI that does not depend on data',
     ],
   ),
   QuizQuestion(
-    'I call my love "Nuda" :',
+    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
     [
-      'So he can feel that I am a member of his family',
-      'Cause I forgot his name',
-      'Cause I hate his name',
-      'To ask him for something',
+      'StatelessWidget',
+      'StatefulWidget',
+      'Both are equally good',
+      'None of the above',
     ],
   ),
   QuizQuestion(
-    'Something is always in my backbag:',
+    'What happens if you change data in a StatelessWidget?',
     [
-      'Rubic Cube',
-      'Laptop',
-      'Gym Gloves',
-      'beans with egg sandwich',
+      'The UI is not updated',
+      'The UI is updated',
+      'The closest StatefulWidget is updated',
+      'Any nested StatefulWidgets are updated',
     ],
   ),
   QuizQuestion(
-    'What is the most thing/person I love?',
+    'How should you update data inside of StatefulWidgets?',
     [
-      'Nuda',
-      'Mango Smoothie Juice',
-      'Ramy Gamal',
-      'My Red Bike',
-    ],
-  ),
-  QuizQuestion(
-    'What do I want to buy for Nuda?',
-    [
-      'Powerbank',
-      'beans with egg sandwich',
-      'ferarri car',
-      'Cup of coffee',
+      'By calling setState()',
+      'By calling updateData()',
+      'By calling updateUI()',
+      'By calling updateState()',
     ],
   ),
 ];
